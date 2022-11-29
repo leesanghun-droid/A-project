@@ -2360,7 +2360,7 @@
     (uuid 7966563c-e279-4a7c-bf41-af45d42c4a74)
   )
   (text "Make sure the power switch is disabled during power up"
-    (at 69.85 68.834 0)
+    (at 69.85 68.834 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 956f8a88-9acc-4e52-9280-d386fdb26e68)
   )
@@ -2369,7 +2369,7 @@
     (uuid a1bbbcb7-3394-4d47-a7e2-c5aca5915b62)
   )
   (text "Make sure the power switch is disabled during power up"
-    (at 69.85 68.834 0)
+    (at 69.85 68.834 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ae0ad2a8-816d-4ed9-8122-ce73b249d5bc)
   )
