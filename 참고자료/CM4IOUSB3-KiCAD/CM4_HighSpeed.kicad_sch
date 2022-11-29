@@ -3082,7 +3082,7 @@
   )
 
   (text "Jumpers to be fitted if Camera0 or Display0 are used.\n"
-    (at 82.804 193.548 0)
+    (at 82.804 193.548 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 19a5aacd-255a-4bf3-89c1-efd2ab61016c)
   )
