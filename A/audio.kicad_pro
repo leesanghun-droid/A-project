@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "A.kicad_pro",
+    "filename": "audio.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -410,6 +410,23 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "2e4f7337-6386-43b5-93e9-f72e36e0825c",
+      ""
+    ],
+    [
+      "039620fc-845c-4f42-b371-a9cdeb447748",
+      "power_isolation_module"
+    ],
+    [
+      "90bebbb0-1fdd-4048-9d12-a8c8747778ea",
+      "CM4_docker1"
+    ],
+    [
+      "37bdbadf-9ce7-4cff-96aa-5222c88e6059",
+      "4ch_mic"
+    ]
+  ],
   "text_variables": {}
 }

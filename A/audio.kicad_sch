@@ -1,0 +1,53 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 2e4f7337-6386-43b5-93e9-f72e36e0825c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 102.87 66.04) (size 27.94 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 039620fc-845c-4f42-b371-a9cdeb447748)
+    (property "Sheet name" "power_isolation_module" (id 0) (at 102.87 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "untitled.kicad_sch" (id 1) (at 102.87 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 60.96 97.79) (size 27.94 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 37bdbadf-9ce7-4cff-96aa-5222c88e6059)
+    (property "Sheet name" "4ch_mic" (id 0) (at 60.96 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "untitled.kicad_sch" (id 1) (at 60.96 118.6946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 60.96 66.04) (size 27.94 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 90bebbb0-1fdd-4048-9d12-a8c8747778ea)
+    (property "Sheet name" "CM4_docker1" (id 0) (at 60.96 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "CM4_docker.kicad_sch" (id 1) (at 60.96 86.9446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748" (page "2"))
+    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea" (page "3"))
+    (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059" (page "4"))
+  )
+)

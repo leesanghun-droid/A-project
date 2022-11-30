@@ -1,0 +1,120 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[03/05/19]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (File ".\fn210-rpi-w_soundit_rev_a(190304)sch-1aa.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (MPSSessionName "lsh")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\fn210-rpi-w_soundit_rev_a(190304)sch-1aa.dsn")
+      (Path "Design Resources" ".\fn210-rpi-w_soundit_rev_a(190304)sch-1aa.dsn"
+         "FoneTrack")
+      (Select "Design Resources"
+         ".\fn210-rpi-w_soundit_rev_a(190304)sch-1aa.dsn" "FoneTrack"
+         "P06_INTERFACE"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 498"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P01_TITLE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "0 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P02_POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P04_WIFI,USB"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "0 336")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P05_ETHERNET"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "0 330")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P06_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "-122 440")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P07_RPI_CMIO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
+        (Scroll "0 0")
+        (Zoom "156")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
+      (Schematic "FoneTrack")
+      (Page "P03_AUDIO"))))
