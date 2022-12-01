@@ -1,4 +1,6 @@
-(module "MTCONN_UBAF30-D2011" (layer "F.Cu") (tedit 60377D2F)
+(footprint "MTCONN_UBAF30-D2011" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 60377D2F)
   (descr "USB3 Stacked type A socket")
   (tags "USB3 TypeA")
   (attr through_hole)
@@ -44,4 +46,9 @@
   (pad "B7" thru_hole circle (at 0 -6.7) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask) (tstamp e20a5ea4-e4eb-49a0-a32f-03c3d6b4ce25))
   (pad "B8" thru_hole circle (at -2 -6.75) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask) (tstamp 2b9dcb68-55a6-4469-99c6-e7842323b544))
   (pad "B9" thru_hole circle (at -4 -6.7) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask) (tstamp c023e606-9337-46f2-b835-98b4401d6a0a))
+  (model "${KIPRJMOD}/CM4IO.3dshapes/SS-52000-003--3DModel-STEP-56544.STEP"
+    (offset (xyz 0 -0.85 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
