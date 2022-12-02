@@ -263,7 +263,7 @@
       (reference "CM4_MODULE1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/3b379111-097e-414e-9e3e-a8f9dc913083"
-      (reference "J1") (unit 1) (value "HDMI") (footprint "CM4IO:CUI_HD02-19-M-MSMT-TR")
+      (reference "J1") (unit 1) (value "HDMI") (footprint "CM4IO:685119134923")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/1f2f6df5-01ec-4730-bfd0-4498d422b1ec"
       (reference "J2") (unit 1) (value "JK00177") (footprint "Connector_RJ:RJ45_Pulse_JK00177NL_Horizontal")
