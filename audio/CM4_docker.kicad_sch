@@ -49,7 +49,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 56148155-aa2c-4806-b944-cbae179019a1)
   )
-  (text "Connectors\n-------\nEthernet\nUSB 2.0 OTG" (at 40.64 102.87 0)
+  (text "Connectors\n-------\nEthernet" (at 40.64 102.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 66c0fddf-8dea-4ac8-8083-958d771cc64f)
   )

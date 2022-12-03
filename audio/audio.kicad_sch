@@ -139,6 +139,9 @@
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/09056e35-c34d-4c03-8943-345de52ec10c"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
+    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/e668c4cc-51fc-44a0-839e-f04030f625f4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/2004aa43-8bd0-490f-8f57-9293f39277ec"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -271,6 +274,9 @@
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/c8fc5916-abaf-412c-928d-9a52c44a9275"
       (reference "J3") (unit 1) (value "USB3_A") (footprint "CM4IO:MTCONN_UBAF30-D2011")
     )
+    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/1e02d5f7-3ec8-4b38-99ba-5677735c25b9"
+      (reference "J?") (unit 1) (value "1054500101") (footprint "CM4IO:MOLEX_105450-0101")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/b33aa841-692c-4565-aead-05c95b2ebb09"
       (reference "L1") (unit 1) (value "BLM18AG221SN1") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
@@ -342,6 +348,9 @@
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/faf0db92-dae2-4dc5-9b4a-b8af31699761"
       (reference "U6") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/7d33e971-963f-4d12-abd5-e61fd0b76d94"
+      (reference "U?") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/aec9efe2-77e7-4ba6-a6d1-162c3e564ea5"
       (reference "Y1") (unit 1) (value "25MHz") (footprint "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm")
