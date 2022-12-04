@@ -1829,7 +1829,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c338c24a-38e9-4678-a6b6-5866b0fed585)
   )
-  (hierarchical_label "USB_OTG_ID" (shape output) (at 106.68 34.29 0)
+  (hierarchical_label "USB_OTG_ID" (shape input) (at 106.68 34.29 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d518a0a7-8424-4cef-af96-3f5b06108886)
   )
