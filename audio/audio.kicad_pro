@@ -452,6 +452,10 @@
     [
       "2d9b1a0f-1381-458a-afc7-6a2863de9fe8",
       "xHCI-USB3"
+    ],
+    [
+      "3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503",
+      "POWER"
     ]
   ],
   "text_variables": {}
