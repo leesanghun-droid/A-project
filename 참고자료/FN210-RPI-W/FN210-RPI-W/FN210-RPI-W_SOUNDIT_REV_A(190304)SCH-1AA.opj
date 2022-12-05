@@ -34,7 +34,7 @@
          "FoneTrack")
       (Select "Design Resources"
          ".\fn210-rpi-w_soundit_rev_a(190304)sch-1aa.dsn" "FoneTrack"
-         "P06_INTERFACE"))
+         "P03_AUDIO"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -56,7 +56,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
-        (Scroll "0 0")
+        (Scroll "0 452")
         (Zoom "78")
         (Occurrence "/"))
       (Path
@@ -68,7 +68,7 @@
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
         (Scroll "0 0")
-        (Zoom "100")
+        (Zoom "78")
         (Occurrence "/"))
       (Path
          "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
@@ -78,7 +78,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
-        (Scroll "0 336")
+        (Scroll "0 452")
         (Zoom "78")
         (Occurrence "/"))
       (Path
@@ -89,8 +89,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
-        (Scroll "0 330")
-        (Zoom "100")
+        (Scroll "-1 248")
+        (Zoom "60")
         (Occurrence "/"))
       (Path
          "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
@@ -100,7 +100,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
-        (Scroll "-122 440")
+        (Scroll "-122 100")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -111,8 +111,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1252 24 516")
-        (Scroll "0 0")
-        (Zoom "156")
+        (Scroll "0 400")
+        (Zoom "78")
         (Occurrence "/"))
       (Path
          "C:\USERS\LSH\DESKTOP\A-PROJECT\참고자료\FN210-RPI-W\FN210-RPI-W\FN210-RPI-W_SOUNDIT_REV_A(190304)SCH-1AA.DSN")
