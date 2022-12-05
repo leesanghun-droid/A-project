@@ -107,11 +107,11 @@
     (uuid ae5b2361-ae75-4bd3-8a0f-7989fcb28f1e)
   )
 
-  (hierarchical_label "+5V" (shape output) (at 132.08 118.11 0)
+  (hierarchical_label "+5V" (shape input) (at 132.08 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d8d8ff06-75b9-4ca4-abda-127063927531)
   )
-  (hierarchical_label "GND" (shape output) (at 132.08 120.65 0)
+  (hierarchical_label "GND" (shape input) (at 132.08 120.65 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fc95ac59-614d-4461-9b58-145bff1b0d26)
   )
