@@ -1,4 +1,4 @@
-20543812059339504
+20545485710482866
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2463,6 +2463,13 @@ SOIC SO
 0
 23
 9
+CM4IO
+SOIC127P1030X265-16N
+16-Pin SOIC-1
+Power Supply
+0
+16
+16
 CM4IO
 SS52000003
 SS-52000-003-2
