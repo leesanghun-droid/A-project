@@ -174,9 +174,6 @@
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/f093b96a-d70d-4352-b9c0-9599f0ffd683"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
-    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/02beae78-a7c3-4d15-92a2-a86b454aa907"
-      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
-    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/2004aa43-8bd0-490f-8f57-9293f39277ec"
       (reference "C1") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -330,6 +327,9 @@
     (path "/039620fc-845c-4f42-b371-a9cdeb447748/b36db655-9d49-4bfc-8826-ca16ed251b38"
       (reference "J9") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical")
     )
+    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/86ae68ff-0110-47e6-80d3-aa6c0f025130"
+      (reference "J10") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/b33aa841-692c-4565-aead-05c95b2ebb09"
       (reference "L1") (unit 1) (value "BLM18AG221SN1") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
@@ -395,9 +395,6 @@
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/708b2483-318f-47f6-ab7a-e6bb573efe7d"
       (reference "R16") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/4695a250-56a2-4ab8-a241-2a67490e4af7"
-      (reference "R17") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/6451ee5b-bbbb-4156-8e20-ed4a81c45145"
       (reference "R18") (unit 1) (value "2.2K 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
