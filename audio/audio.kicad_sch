@@ -342,6 +342,9 @@
     (path "/039620fc-845c-4f42-b371-a9cdeb447748/a11b0c44-04a5-4de1-a00a-82ab02295fa8"
       (reference "PS1") (unit 1) (value "R05CTE05S-R") (footprint "CM4IO:SOIC127P1030X265-16N")
     )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/980c7cbb-f3ea-4894-a81f-d7b4f5ba2b0d"
+      (reference "PS2") (unit 1) (value "R05CTE05S-R") (footprint "CM4IO:SOIC127P1030X265-16N")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/55100669-b608-4057-b206-1b2655b8bece"
       (reference "Q1") (unit 1) (value "DMG1012T") (footprint "Package_TO_SOT_SMD:SOT-523")
     )
@@ -414,6 +417,9 @@
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/bcffc3e4-1087-40df-8d6c-be5df8e256f5"
       (reference "U1") (unit 1) (value "RT9742SNGV") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/a233f130-c980-42a5-8136-bd84223812b1"
+      (reference "U2") (unit 1) (value "ISO1540") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/5ff602e9-42fe-4c84-b4d9-1b4af37150b9"
       (reference "U3") (unit 1) (value "VL805") (footprint "Package_DFN_QFN:QFN-68-1EP_8x8mm_P0.4mm_EP5.2x5.2mm_ThermalVias")
     )
@@ -440,6 +446,12 @@
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/fe95f418-1403-45c0-a159-1425e6fddac5"
       (reference "U8") (unit 1) (value "AP3402") (footprint "Package_TO_SOT_SMD:TSOT-23-6")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/0c56e234-7ade-4a53-955a-94963a078856"
+      (reference "U9") (unit 1) (value "SI8663BB-B-IS1") (footprint "CM4IO:SI8663BB-B-IS1")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/f7e3e717-3fa9-44a4-85e3-71464b3277ca"
+      (reference "U10") (unit 1) (value "ac108") (footprint "CM4IO:AC108")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/aec9efe2-77e7-4ba6-a6d1-162c3e564ea5"
       (reference "Y1") (unit 1) (value "25MHz") (footprint "Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm")

@@ -1,4 +1,4 @@
-20545485710482866
+20548830355244594
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2380,6 +2380,13 @@ Connector
 23
 23
 CM4IO
+AC108
+
+
+0
+49
+49
+CM4IO
 BarrelJack_Horizontal
 DC Barrel Jack
 Power Jack
@@ -2456,6 +2463,13 @@ SDCARD_MOLEX_503398-1892
 0
 14
 11
+CM4IO
+SI8663BB-B-IS1
+
+
+0
+16
+16
 CM4IO
 SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm_ThermalVias
 SOIC, 8 Pin (http://www.ti.com/lit/ds/symlink/lm5017.pdf#page=31), generated with kicad-footprint-generator ipc_gullwing_generator.py
