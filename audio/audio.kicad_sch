@@ -8,6 +8,35 @@
   )
 
 
+  (wire (pts (xy 105.41 60.96) (xy 123.19 60.96))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 326c9687-f614-4082-b0c7-b28f86367cb0)
+  )
+  (wire (pts (xy 105.41 33.02) (xy 123.19 33.02))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 45a89851-b8c1-4457-9142-0422eb01b421)
+  )
+  (wire (pts (xy 105.41 63.5) (xy 123.19 63.5))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7beaf39c-3310-43e1-b83f-483cf4efafee)
+  )
+  (wire (pts (xy 105.41 44.45) (xy 123.19 44.45))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 847a9a55-b1bc-40ae-9363-8d99177e423a)
+  )
+  (wire (pts (xy 105.41 46.99) (xy 123.19 46.99))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a7c53a84-be26-42ed-ae89-ba578f037aed)
+  )
+  (wire (pts (xy 105.41 57.15) (xy 123.19 57.15))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e8199b75-e8e4-42eb-af2f-c909c6c6cd65)
+  )
+  (wire (pts (xy 105.41 35.56) (xy 123.19 35.56))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid fc6e4aef-49b7-4701-acb6-16e422e30cac)
+  )
+
   (sheet (at 78.74 26.67) (size 26.67 43.18) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -50,6 +79,34 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 5a1d3872-ac11-4d5f-87b9-22a6ebd3ec8f)
     )
+    (pin "VDD_5V" output (at 105.41 33.02 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a52f555d-97ef-4683-99ff-5884c6c7960d)
+    )
+    (pin "VDD_GND" output (at 105.41 35.56 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 510b792b-76f4-4b65-a1af-99f278d0551b)
+    )
+    (pin "AVCC_GND" output (at 105.41 63.5 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 4f03bed4-75ce-4bb1-b4a7-15c72b35813a)
+    )
+    (pin "AVCC_5V" output (at 105.41 60.96 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 0f983056-c56a-4324-ad2c-eb0c8a8264e9)
+    )
+    (pin "VDD_3.3V" input (at 105.41 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2df118bd-0ecb-4ef5-b9eb-4f42db10bc32)
+    )
+    (pin "ISO_SDA" bidirectional (at 105.41 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 14c35960-a209-49a4-935b-a09afdfabd33)
+    )
+    (pin "ISO_SCL" bidirectional (at 105.41 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid aaa39308-06d4-426e-9e86-53e718359090)
+    )
   )
 
   (sheet (at 123.19 26.67) (size 31.75 43.18) (fields_autoplaced)
@@ -77,6 +134,18 @@
     (pin "VDD_GND" input (at 123.19 35.56 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6428e369-9027-4685-956b-909bc4faa152)
+    )
+    (pin "VDD_3.3V" output (at 123.19 57.15 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ecd7843e-2f08-4d49-a502-034bbc193ad3)
+    )
+    (pin "ISO_SDA" bidirectional (at 123.19 44.45 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 3af146ca-7b65-458f-a9fc-7fa980a0b2c5)
+    )
+    (pin "ISO_SCK" bidirectional (at 123.19 46.99 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 92001dad-754d-4516-b1a1-f45e64f9a242)
     )
   )
 
@@ -397,6 +466,30 @@
     (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/5e4d9ae8-a019-42aa-b596-0c4d3046fbfe"
       (reference "C57") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/1bb55229-ee61-4734-afb9-e122552e5efc"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/35a714f4-35b2-4606-a330-f54351eb8b8f"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/42fd9cc3-a1c7-48e6-a1b5-dfa90ff36a9b"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/62e4a09c-e079-40c9-88c9-84fb093328d9"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/8a543b7f-afd8-458e-91cc-5b7626ce57d9"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/9fc4e6e4-f57f-4832-98ce-0a1682dc2ac4"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/b19d8232-7a79-4e8f-b138-c3f1514264e3"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/b857485a-1914-49df-939c-3768a8e1153f"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/42f6fe2f-8af7-44f7-8fc7-5a6761485dc5"
       (reference "CM4_MODULE1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
     )
@@ -457,8 +550,8 @@
     (path "/039620fc-845c-4f42-b371-a9cdeb447748/a11b0c44-04a5-4de1-a00a-82ab02295fa8"
       (reference "PS1") (unit 1) (value "R05CTE05S-R") (footprint "CM4IO:SOIC127P1030X265-16N")
     )
-    (path "/039620fc-845c-4f42-b371-a9cdeb447748/980c7cbb-f3ea-4894-a81f-d7b4f5ba2b0d"
-      (reference "PS2") (unit 1) (value "R05CTE05S-R") (footprint "CM4IO:SOIC127P1030X265-16N")
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/4c6bb1da-9734-45ea-bd03-ec3fa27347d8"
+      (reference "PS?") (unit 1) (value "R05CTE05S-R") (footprint "CM4IO:SOIC127P1030X265-16N")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/2d9b1a0f-1381-458a-afc7-6a2863de9fe8/55100669-b608-4057-b206-1b2655b8bece"
       (reference "Q1") (unit 1) (value "DMG1012T") (footprint "Package_TO_SOT_SMD:SOT-523")
@@ -585,6 +678,12 @@
     )
     (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/cbcae41c-de2a-43a3-bd66-a2af24bfd4d2"
       (reference "R41") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/7de2a3b2-fa46-4fd6-b370-1525aa40da25"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/039620fc-845c-4f42-b371-a9cdeb447748/bc525e79-f897-46c9-90af-41caba500e8f"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd/bcffc3e4-1087-40df-8d6c-be5df8e256f5"
       (reference "U1") (unit 1) (value "RT9742SNGV") (footprint "Package_TO_SOT_SMD:SOT-23")
