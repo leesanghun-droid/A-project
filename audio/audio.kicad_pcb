@@ -8131,11 +8131,13 @@
   (gr_line (start 268.25 -25.5) (end 266.75 -27) (layer "F.SilkS") (width 0.15) (tstamp fdccba68-014f-4fd7-b3fc-f8ef39393804))
   (gr_line (start 257.75 -1.5) (end 250.75 -8.5) (layer "F.SilkS") (width 0.15) (tstamp fe8ebd85-9b51-47d8-97a9-1dd677ea1155))
   (gr_line (start 100 0) (end 175 0) (layer "Edge.Cuts") (width 0.15) (tstamp 042fab85-fccc-40e5-8a88-6550c2f99cb3))
-  (gr_line (start 75 0) (end 75 75) (layer "Edge.Cuts") (width 0.1) (tstamp 0f97cc47-30c5-4621-9388-d90be0070e1b))
-  (gr_line (start 100 28) (end 100 0) (layer "Edge.Cuts") (width 0.15) (tstamp 142f7512-a250-49d7-b3fa-e51eb05fe4a1))
+  (gr_line (start 75 0.25) (end 75 75) (layer "Edge.Cuts") (width 0.1) (tstamp 0f97cc47-30c5-4621-9388-d90be0070e1b))
+  (gr_line (start 75 0.25) (end 100 0.25) (layer "Edge.Cuts") (width 0.1) (tstamp 12e58117-a117-4894-8f29-8b3eceffb662))
+  (gr_line (start 100 28) (end 100 0.25) (layer "Edge.Cuts") (width 0.15) (tstamp 142f7512-a250-49d7-b3fa-e51eb05fe4a1))
   (gr_line (start 100 28) (end 118 28) (layer "Edge.Cuts") (width 0.15) (tstamp 32e4526f-1185-4cae-88f1-6fba8e84ee93))
   (gr_line (start 118 46) (end 135 46) (layer "Edge.Cuts") (width 0.15) (tstamp 39dfba62-5370-45a0-804b-ae5bedc06af1))
   (gr_line (start 0 75) (end 0 0) (layer "Edge.Cuts") (width 0.1) (tstamp 5601fa26-b347-4c3e-80c1-e53c333556e4))
+  (gr_line (start 75 0) (end 100 0) (layer "Edge.Cuts") (width 0.1) (tstamp 66f06e4c-9abf-4b42-b3bd-9e8044c8e609))
   (gr_line (start 175 0) (end 175 75) (layer "Edge.Cuts") (width 0.15) (tstamp 94c7f0c9-796c-4260-bc41-90402206d478))
   (gr_line (start 75 0) (end 0 0) (layer "Edge.Cuts") (width 0.1) (tstamp a4b54b11-671e-4286-b967-290bbf03a52f))
   (gr_line (start 118 28) (end 118 46) (layer "Edge.Cuts") (width 0.15) (tstamp aa376bfc-2f70-4254-a8f2-0b508e6f5d8c))
@@ -8452,16 +8454,4 @@
   (segment (start 31.377552 50.65) (end 29.44 50.65) (width 0.127) (layer "F.Cu") (net 225) (tstamp cc88830b-34ee-4a6d-b2e4-36722833fa91))
   (segment (start 28.77 54.773) (end 27.4175 56.1255) (width 0.127) (layer "F.Cu") (net 225) (tstamp d65cfc50-6c54-4243-9c99-c9326e5b553b))
 
-  (group "" (id 26ca72fd-00c8-4714-a324-331a34317f22)
-    (members
-      042fab85-fccc-40e5-8a88-6550c2f99cb3
-      142f7512-a250-49d7-b3fa-e51eb05fe4a1
-      32e4526f-1185-4cae-88f1-6fba8e84ee93
-      39dfba62-5370-45a0-804b-ae5bedc06af1
-      94c7f0c9-796c-4260-bc41-90402206d478
-      aa376bfc-2f70-4254-a8f2-0b508e6f5d8c
-      bae8e291-2c34-458b-bf3a-cfe84ce39106
-      e5929585-bee0-4f82-83aa-a0dc628a9392
-    )
-  )
 )
