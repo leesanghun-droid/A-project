@@ -1,4 +1,4 @@
-20548830355650504
+20552171166435759
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2408,6 +2408,13 @@ EDAC 690-019-298-412
 23
 23
 CM4IO
+GROVE_4PIN
+114020164-2
+Connector
+0
+6
+6
+CM4IO
 Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal
 Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
 connector Hirose  top entry
@@ -2491,6 +2498,13 @@ Connector
 0
 22
 18
+CM4IO
+TCR3RM33
+DFN4C_Thickness=0.4mm
+Integrated Circuit
+0
+5
+5
 CM4IO
 TRJG0926HENL
 https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf
