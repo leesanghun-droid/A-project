@@ -35,9 +35,9 @@
   (pad "4" smd rect (at 3 -3.8) (size 1 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ff247f6e-2fb5-457e-91f4-b40a527a6815))
   (pad "MP1" smd rect (at -5.3 3.7) (size 1.5 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a50457ba-fc59-427e-a853-184b25c15bc2))
   (pad "MP2" smd rect (at 5.3 3.7) (size 1.5 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5f8d4800-39ab-4b0f-87fc-dc0733fa1c7c))
-  (model "114020164.stp"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/CM4IO.3dshapes/GROVE_4PIN.stp"
+    (offset (xyz -6 1.5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
