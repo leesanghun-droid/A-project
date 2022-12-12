@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -125,11 +125,14 @@
       },
       "track_widths": [
         0.0,
+        0.13,
         0.15,
         0.17,
         0.2,
+        0.25,
         0.355,
         0.5,
+        1.0,
         1.5
       ],
       "via_dimensions": [
@@ -495,8 +498,8 @@
         "microvia_drill": 0.1,
         "name": "usb3.0_2.0",
         "nets": [
-          "/CM4_docker1/CM4_LOW_SPEED/USB2_N",
-          "/CM4_docker1/CM4_LOW_SPEED/USB2_P",
+          "/CM4_docker1/USB_DEBUG_N",
+          "/CM4_docker1/USB_DEBUG_P",
           "/CM4_docker1/xHCI-USB3/C1_N",
           "/CM4_docker1/xHCI-USB3/C1_P",
           "/CM4_docker1/xHCI-USB3/C2_N",

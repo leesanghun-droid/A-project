@@ -49,8 +49,10 @@
   (pad "B12" smd rect (at -3.1 -2.47) (size 1 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fdb6c2ee-6e18-4665-9abf-d44c4c4b2c5e))
   (pad "S1" thru_hole oval (at -4.32 -3.36) (size 1.2 2.2) (drill oval 0.65 1.700481) (layers *.Cu *.Mask) (tstamp 7406b376-7c19-4a57-b43b-ecf89e94f12b))
   (pad "S2" thru_hole oval (at 4.32 -3.36) (size 1.2 2.2) (drill oval 0.65 1.725463) (layers *.Cu *.Mask) (tstamp 3e5188b7-1e7e-461f-b8d3-b7cba373cf6d))
-  (pad "S3" thru_hole oval (at -4.32 2) (size 1.2 2.7) (drill oval 0.65 2.1755) (layers *.Cu *.Mask) (tstamp 16940398-cd94-44b2-907a-076952e9dfc4))
-  (pad "S4" thru_hole oval (at 4.32 2) (size 1.2 2.6) (drill oval 0.65 2.1755) (layers *.Cu *.Mask) (tstamp e5d6b4a3-8568-4717-90ec-09b74f5b4fac))
+  (pad "S3" thru_hole oval (at -4.32 2) (size 1.2 2.7) (drill oval 0.65 2.1755) (layers *.Cu *.Mask)
+    (clearance 0.2) (tstamp 16940398-cd94-44b2-907a-076952e9dfc4))
+  (pad "S4" thru_hole oval (at 4.32 2) (size 1.2 2.6) (drill oval 0.65 2.1755) (layers *.Cu *.Mask)
+    (clearance 0.2) (tstamp e5d6b4a3-8568-4717-90ec-09b74f5b4fac))
   (zone (net 0) (net_name "") (layers *.Cu) (tstamp 5c7d01f8-d46a-49ed-b7b0-1a1e09418549) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01)
@@ -58,8 +60,8 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy -3.5 -1.88)
-        (xy 3.5 -1.88)
+        (xy -3.5 1.12)
+        (xy 3.5 1.12)
         (xy 3.5 3.77)
         (xy -3.5 3.77)
       )
@@ -72,8 +74,8 @@
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy -3.5 -1.88)
-        (xy 3.5 -1.88)
+        (xy -3.5 1.12)
+        (xy 3.5 1.12)
         (xy 3.5 3.77)
         (xy -3.5 3.77)
       )
