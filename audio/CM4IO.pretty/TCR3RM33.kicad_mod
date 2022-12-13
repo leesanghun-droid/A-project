@@ -28,7 +28,6 @@
   (pad "2" smd rect (at 0.325 0.45) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 804db48a-f2dc-467d-9d1b-50731d1c0877))
   (pad "3" smd rect (at 0.325 -0.45) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d06ca9a6-6f6b-47ec-8794-fcd76afb305e))
   (pad "4" smd rect (at -0.325 -0.45) (size 0.25 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0db27bba-ad4f-4742-b7d7-9a34a216c83e))
-  (pad "5" smd rect (at 0 0 135) (size 0.48 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c679138b-3c92-4202-a46a-6689190affd7))
   (model "${KIPRJMOD}/CM4IO.3dshapes/TCR3RM33.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
