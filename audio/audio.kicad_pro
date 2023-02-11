@@ -396,9 +396,7 @@
         "nets": [
           "/CM4_docker1/I2S_ADC",
           "/CM4_docker1/I2S_BCLK",
-          "/CM4_docker1/I2S_LRCK",
-          "/CM4_docker1/xHCI-USB3/clock1",
-          "/CM4_docker1/xHCI-USB3/clock2"
+          "/CM4_docker1/I2S_LRCK"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -504,9 +502,7 @@
           "/CM4_docker1/CM4_HIGH_SPEED/PCIE_RX_N",
           "/CM4_docker1/CM4_HIGH_SPEED/PCIE_RX_P",
           "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_P",
-          "/CM4_docker1/xHCI-USB3/PEXTX_N",
-          "/CM4_docker1/xHCI-USB3/PEXTX_P"
+          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -527,27 +523,7 @@
         "name": "usb3.0_2.0",
         "nets": [
           "/CM4_docker1/USB_DEBUG_N",
-          "/CM4_docker1/USB_DEBUG_P",
-          "/CM4_docker1/xHCI-USB3/C1_N",
-          "/CM4_docker1/xHCI-USB3/C1_P",
-          "/CM4_docker1/xHCI-USB3/C2_N",
-          "/CM4_docker1/xHCI-USB3/C2_P",
-          "/CM4_docker1/xHCI-USB3/PD1_N",
-          "/CM4_docker1/xHCI-USB3/PD1_P",
-          "/CM4_docker1/xHCI-USB3/PD2_N",
-          "/CM4_docker1/xHCI-USB3/PD2_P",
-          "/CM4_docker1/xHCI-USB3/PD3_N",
-          "/CM4_docker1/xHCI-USB3/PD3_P",
-          "/CM4_docker1/xHCI-USB3/PD4_N",
-          "/CM4_docker1/xHCI-USB3/PD4_P",
-          "/CM4_docker1/xHCI-USB3/SSRX1_N",
-          "/CM4_docker1/xHCI-USB3/SSRX1_P",
-          "/CM4_docker1/xHCI-USB3/SSRX2_N",
-          "/CM4_docker1/xHCI-USB3/SSRX2_P",
-          "/CM4_docker1/xHCI-USB3/SSTX1_N",
-          "/CM4_docker1/xHCI-USB3/SSTX1_P",
-          "/CM4_docker1/xHCI-USB3/SSTX2_N",
-          "/CM4_docker1/xHCI-USB3/SSTX2_P"
+          "/CM4_docker1/USB_DEBUG_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -635,10 +611,6 @@
     [
       "323b8967-7dfd-44f3-9141-90ee1155f22c",
       "CM4_LOW_SPEED"
-    ],
-    [
-      "2d9b1a0f-1381-458a-afc7-6a2863de9fe8",
-      "xHCI-USB3"
     ],
     [
       "3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503",
