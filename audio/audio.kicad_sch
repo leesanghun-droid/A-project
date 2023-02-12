@@ -723,6 +723,15 @@
     (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/62312893-d00b-4ab7-8850-40f6021f4305"
       (reference "U15") (unit 1) (value "MIC_4PIN_SMD") (footprint "CM4IO:MIC_4PIN_SMD")
     )
+    (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/2229058c-56d2-4366-a4e4-847f3d2cb216"
+      (reference "U16") (unit 1) (value "MIC_4PIN_SMD") (footprint "CM4IO:MIC_4PIN_SMD")
+    )
+    (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/1e1207a9-b2cf-415c-931d-eabe9c954d1e"
+      (reference "U17") (unit 1) (value "MIC_4PIN_SMD") (footprint "CM4IO:MIC_4PIN_SMD")
+    )
+    (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/52ad0fce-43fd-497a-ab0b-5111530ede76"
+      (reference "U18") (unit 1) (value "MIC_4PIN_SMD") (footprint "CM4IO:MIC_4PIN_SMD")
+    )
     (path "/37bdbadf-9ce7-4cff-96aa-5222c88e6059/92925ad6-0127-4058-9a64-eaafaf821f0a"
       (reference "X1") (unit 1) (value "ASE-24.000MHz") (footprint "Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm")
     )
