@@ -306,6 +306,18 @@
     )
   )
 
+  (sheet (at 154.94 26.67) (size 27.94 58.42) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid daa996b3-8cca-4e80-978a-b45cd225225a)
+    (property "Sheet name" "mic_moudle" (id 0) (at 154.94 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "mic_moudle.kicad_sch" (id 1) (at 154.94 85.6746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/039620fc-845c-4f42-b371-a9cdeb447748" (page "2"))
@@ -314,6 +326,7 @@
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/6ec665d8-c64e-4e17-9c29-206f5c3ea2cd" (page "5"))
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c" (page "6"))
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503" (page "8"))
+    (path "/daa996b3-8cca-4e80-978a-b45cd225225a" (page "8"))
   )
 
   (symbol_instances
@@ -659,6 +672,9 @@
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503/61729913-f53d-4ae9-ab52-614d856b9c5f"
       (reference "U3") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
+    (path "/daa996b3-8cca-4e80-978a-b45cd225225a/02ec9700-875a-4205-8a71-8de7e45fd48f"
+      (reference "U4") (unit 1) (value "SPU0414HR5H-SB") (footprint "CM4IO:SPU0414HR5H-SB")
+    )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/5c4d2ec8-6904-46e1-9ee8-610590ef91b6"
       (reference "U5") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
     )
@@ -667,6 +683,9 @@
     )
     (path "/90bebbb0-1fdd-4048-9d12-a8c8747778ea/323b8967-7dfd-44f3-9141-90ee1155f22c/c56e4b3f-4311-4e2b-b5a9-9f001feeea12"
       (reference "U7") (unit 1) (value "TPD4EUSB30") (footprint "Package_SON:USON-10_2.5x1.0mm_P0.5mm")
+    )
+    (path "/daa996b3-8cca-4e80-978a-b45cd225225a/a033fd0f-e292-408f-ae2b-f7c5975e789f"
+      (reference "U8") (unit 1) (value "MIC_MODULE_4PIN") (footprint "CM4IO:MIC_MODULE_4PIN")
     )
     (path "/039620fc-845c-4f42-b371-a9cdeb447748/0c56e234-7ade-4a53-955a-94963a078856"
       (reference "U9") (unit 1) (value "SI8663BB-B-IS1") (footprint "CM4IO:SI8663BB-B-IS1")

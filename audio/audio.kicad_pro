@@ -542,7 +542,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "",
       "step": "../../audio.step",
       "vrml": "audio.wrl"
@@ -615,6 +615,10 @@
     [
       "3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503",
       "POWER"
+    ],
+    [
+      "daa996b3-8cca-4e80-978a-b45cd225225a",
+      "mic_moudle"
     ]
   ],
   "text_variables": {}
