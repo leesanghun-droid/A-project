@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -145,7 +146,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -329,18 +331,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -350,6 +357,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -367,7 +375,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
@@ -381,10 +389,10 @@
         "track_width": 0.13,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -393,20 +401,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50옴",
-        "nets": [
-          "/CM4_docker1/I2S_ADC",
-          "/CM4_docker1/I2S_BCLK",
-          "/CM4_docker1/I2S_LRCK"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.355,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.12,
         "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
@@ -415,25 +418,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GigE",
-        "nets": [
-          "/CM4_docker1/CM4_LOW_SPEED/TRD0_N",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD0_P",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD1_N",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD1_P",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD2_N",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD2_P",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD3_N",
-          "/CM4_docker1/CM4_LOW_SPEED/TRD3_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -442,25 +435,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "MIC 90옴",
-        "nets": [
-          "/4ch_mic/MIC1N",
-          "/4ch_mic/MIC1P",
-          "/4ch_mic/MIC2N",
-          "/4ch_mic/MIC2P",
-          "/4ch_mic/MIC3N",
-          "/4ch_mic/MIC3P",
-          "/4ch_mic/MIC4N",
-          "/4ch_mic/MIC4P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.17,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.12,
         "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
@@ -469,25 +452,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "hdmi2.0",
-        "nets": [
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_CK_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_CK_P",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D0_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D0_P",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D1_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D1_P",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D2_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D2_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -496,23 +469,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "pcie2.0",
-        "nets": [
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_CLK_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_CLK_P",
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_RX_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_RX_P",
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_N",
-          "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.17,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.1,
         "diff_pair_via_gap": 0.25,
@@ -521,22 +486,161 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "usb3.0_2.0",
-        "nets": [
-          "/CM4_docker1/USB_DEBUG_N",
-          "/CM4_docker1/USB_DEBUG_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.17,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "50옴",
+        "pattern": "/CM4_docker1/I2S_ADC"
+      },
+      {
+        "netclass": "50옴",
+        "pattern": "/CM4_docker1/I2S_BCLK"
+      },
+      {
+        "netclass": "50옴",
+        "pattern": "/CM4_docker1/I2S_LRCK"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD0_N"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD0_P"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD1_N"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD1_P"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD2_N"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD2_P"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD3_N"
+      },
+      {
+        "netclass": "GigE",
+        "pattern": "/CM4_docker1/CM4_LOW_SPEED/TRD3_P"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC1N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC1P"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC2N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC2P"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC3N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC3P"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC4N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC4P"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_CK_N"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_CK_P"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D0_N"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D0_P"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D1_N"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D1_P"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D2_N"
+      },
+      {
+        "netclass": "hdmi2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/HDMI0_D2_P"
+      },
+      {
+        "netclass": "pcie2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/PCIE_CLK_N"
+      },
+      {
+        "netclass": "pcie2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/PCIE_CLK_P"
+      },
+      {
+        "netclass": "pcie2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/PCIE_RX_N"
+      },
+      {
+        "netclass": "pcie2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/PCIE_RX_P"
+      },
+      {
+        "netclass": "pcie2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_N"
+      },
+      {
+        "netclass": "pcie2.0",
+        "pattern": "/CM4_docker1/CM4_HIGH_SPEED/PCIE_TX_P"
+      },
+      {
+        "netclass": "usb3.0_2.0",
+        "pattern": "/CM4_docker1/USB_DEBUG_N"
+      },
+      {
+        "netclass": "usb3.0_2.0",
+        "pattern": "/CM4_docker1/USB_DEBUG_P"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -552,6 +656,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -583,7 +689,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
