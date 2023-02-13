@@ -586,6 +586,22 @@
       {
         "netclass": "MIC 90옴",
         "pattern": "/4ch_mic/MIC3N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC1_CON_N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC1_CON_P"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC2_CON_N"
+      },
+      {
+        "netclass": "MIC 90옴",
+        "pattern": "/4ch_mic/MIC2_CON_P"
       }
     ]
   },
@@ -670,12 +686,24 @@
       "CM4_LOW_SPEED"
     ],
     [
+      "a4e3957d-eb98-4ec0-8ca6-596cd496c072",
+      "mic_moudle2"
+    ],
+    [
       "3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503",
       "POWER"
     ],
     [
       "daa996b3-8cca-4e80-978a-b45cd225225a",
-      "mic_moudle"
+      "mic_moudle1"
+    ],
+    [
+      "f8e1abee-9251-4a65-b885-d43c7ca6de94",
+      "mic_moudle3"
+    ],
+    [
+      "165eaf2d-a6d4-45f5-aba9-ba5a37e5fdab",
+      "mic_moudle4"
     ]
   ],
   "text_variables": {}
