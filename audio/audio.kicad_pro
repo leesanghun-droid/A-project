@@ -544,7 +544,7 @@
       "idf": "",
       "netlist": "./",
       "specctra_dsn": "",
-      "step": "../../audio.step",
+      "step": "../../top_audio.STEP",
       "vrml": "audio.wrl"
     },
     "page_layout_descr_file": ""
