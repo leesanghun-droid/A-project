@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.049999999999999996,
@@ -165,7 +166,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": false
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -349,18 +351,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -370,6 +377,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "error",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -387,7 +395,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -401,10 +409,10 @@
         "track_width": 0.13,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.253,
         "diff_pair_via_gap": 0.25,
@@ -413,57 +421,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100R",
-        "nets": [
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_P",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P",
-          "/CM4_HighSpeed/CAM0_C_N",
-          "/CM4_HighSpeed/CAM0_C_P",
-          "/CM4_HighSpeed/CAM0_D0_N",
-          "/CM4_HighSpeed/CAM0_D0_P",
-          "/CM4_HighSpeed/CAM0_D1_N",
-          "/CM4_HighSpeed/CAM0_D1_P",
-          "/CM4_HighSpeed/CAM1_C_N",
-          "/CM4_HighSpeed/CAM1_C_P",
-          "/CM4_HighSpeed/CAM1_D0_N",
-          "/CM4_HighSpeed/CAM1_D0_P",
-          "/CM4_HighSpeed/CAM1_D1_N",
-          "/CM4_HighSpeed/CAM1_D1_P",
-          "/CM4_HighSpeed/CAM1_D2_N",
-          "/CM4_HighSpeed/CAM1_D2_P",
-          "/CM4_HighSpeed/CAM1_D3_N",
-          "/CM4_HighSpeed/CAM1_D3_P",
-          "/CM4_HighSpeed/DSI0_C_N",
-          "/CM4_HighSpeed/DSI0_C_P",
-          "/CM4_HighSpeed/DSI0_D0_N",
-          "/CM4_HighSpeed/DSI0_D0_P",
-          "/CM4_HighSpeed/DSI0_D1_N",
-          "/CM4_HighSpeed/DSI0_D1_P",
-          "/CM4_HighSpeed/DSI1_C_N",
-          "/CM4_HighSpeed/DSI1_C_P",
-          "/CM4_HighSpeed/DSI1_D0_N",
-          "/CM4_HighSpeed/DSI1_D0_P",
-          "/CM4_HighSpeed/DSI1_D1_N",
-          "/CM4_HighSpeed/DSI1_D1_P",
-          "/CM4_HighSpeed/DSI1_D2_N",
-          "/CM4_HighSpeed/DSI1_D2_P",
-          "/CM4_HighSpeed/DSI1_D3_N",
-          "/CM4_HighSpeed/DSI1_D3_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -472,16 +438,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50R",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -490,16 +455,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "75R",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.253,
         "diff_pair_via_gap": 0.25,
@@ -508,39 +472,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "90R",
-        "nets": [
-          "/xHCI-USB3/C1_N",
-          "/xHCI-USB3/C1_P",
-          "/xHCI-USB3/C2_N",
-          "/xHCI-USB3/C2_P",
-          "/xHCI-USB3/PD1_N",
-          "/xHCI-USB3/PD1_P",
-          "/xHCI-USB3/PD2_N",
-          "/xHCI-USB3/PD2_P",
-          "/xHCI-USB3/PD3_N",
-          "/xHCI-USB3/PD3_P",
-          "/xHCI-USB3/PD4_N",
-          "/xHCI-USB3/PD4_P",
-          "/xHCI-USB3/PEXTX_N",
-          "/xHCI-USB3/PEXTX_P",
-          "/xHCI-USB3/SSRX1_N",
-          "/xHCI-USB3/SSRX1_P",
-          "/xHCI-USB3/SSRX2_N",
-          "/xHCI-USB3/SSRX2_P",
-          "/xHCI-USB3/SSTX1_N",
-          "/xHCI-USB3/SSTX1_P",
-          "/xHCI-USB3/SSTX2_N",
-          "/xHCI-USB3/SSTX2_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.147,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.13,
         "diff_pair_gap": 0.253,
         "diff_pair_via_gap": 0.25,
@@ -549,33 +489,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HDMI",
-        "nets": [
-          "/CM4_HighSpeed/HDMI0_CK_N",
-          "/CM4_HighSpeed/HDMI0_CK_P",
-          "/CM4_HighSpeed/HDMI0_D0_N",
-          "/CM4_HighSpeed/HDMI0_D0_P",
-          "/CM4_HighSpeed/HDMI0_D1_N",
-          "/CM4_HighSpeed/HDMI0_D1_P",
-          "/CM4_HighSpeed/HDMI0_D2_N",
-          "/CM4_HighSpeed/HDMI0_D2_P",
-          "/CM4_HighSpeed/HDMI1_CK_N",
-          "/CM4_HighSpeed/HDMI1_CK_P",
-          "/CM4_HighSpeed/HDMI1_D0_N",
-          "/CM4_HighSpeed/HDMI1_D0_P",
-          "/CM4_HighSpeed/HDMI1_D1_N",
-          "/CM4_HighSpeed/HDMI1_D1_P",
-          "/CM4_HighSpeed/HDMI1_D2_N",
-          "/CM4_HighSpeed/HDMI1_D2_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 1.0,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -584,24 +506,349 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "POE TAPS",
-        "nets": [
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP",
-          "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.13,
         "via_diameter": 0.45,
         "via_drill": 0.2,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM0_C_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM0_C_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM0_D0_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM0_D0_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM0_D1_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM0_D1_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_C_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_C_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D0_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D0_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D1_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D1_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D2_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D2_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D3_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/CAM1_D3_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI0_C_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI0_C_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI0_D0_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI0_D0_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI0_D1_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI0_D1_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_C_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_C_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D0_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D0_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D1_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D1_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D2_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D2_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D3_N"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "/CM4_HighSpeed/DSI1_D3_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/C1_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/C1_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/C2_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/C2_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD1_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD1_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD2_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD2_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD3_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD3_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD4_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PD4_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PEXTX_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/PEXTX_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSRX1_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSRX1_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSRX2_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSRX2_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSTX1_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSTX1_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSTX2_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/xHCI-USB3/SSTX2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_CK_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_CK_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI0_D2_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_CK_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_CK_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_D0_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_D0_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_D1_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_D1_P"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_D2_N"
+      },
+      {
+        "netclass": "HDMI",
+        "pattern": "/CM4_HighSpeed/HDMI1_D2_P"
+      },
+      {
+        "netclass": "POE TAPS",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR0_TAP"
+      },
+      {
+        "netclass": "POE TAPS",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR1_TAP"
+      },
+      {
+        "netclass": "POE TAPS",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR2_TAP"
+      },
+      {
+        "netclass": "POE TAPS",
+        "pattern": "/CM4_GPIO ( Ethernet, GPIO, SDCARD)/TR3_TAP"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -618,6 +865,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_bus_thickness": 12.0,
       "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
@@ -652,7 +901,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "Circuits",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
