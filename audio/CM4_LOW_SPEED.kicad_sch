@@ -5392,7 +5392,7 @@
     (property "Reference" "R36" (at 113.538 160.1216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "30K 1%" (at 113.538 162.433 0)
+    (property "Value" "15K 1%" (at 113.538 162.433 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 109.982 161.29 90)

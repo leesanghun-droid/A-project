@@ -2625,7 +2625,7 @@
     (property "Reference" "C103" (at 371.221 28.0416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "47u" (at 371.221 30.353 0)
+    (property "Value" "10u" (at 371.221 30.353 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 369.2652 33.02 0)
