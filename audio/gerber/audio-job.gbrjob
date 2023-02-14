@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-02-14T07:36:11+09:00"
+    "CreationDate": "2023-02-14T21:30:46+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -61,16 +61,6 @@
     {
       "Path": "audio-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "audio-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "audio-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
