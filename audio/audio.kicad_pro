@@ -97,7 +97,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
@@ -602,6 +602,22 @@
       {
         "netclass": "MIC 90옴",
         "pattern": "/4ch_mic/MIC2_CON_P"
+      },
+      {
+        "netclass": "usb3.0_2.0",
+        "pattern": "/CM4_docker1/USB_DEBUG_N"
+      },
+      {
+        "netclass": "usb3.0_2.0",
+        "pattern": "/CM4_docker1/USB_DEBUG_P"
+      },
+      {
+        "netclass": "usb3.0_2.0",
+        "pattern": "/CM4_docker1/POWER/D+"
+      },
+      {
+        "netclass": "usb3.0_2.0",
+        "pattern": "/CM4_docker1/POWER/D-"
       }
     ]
   },
