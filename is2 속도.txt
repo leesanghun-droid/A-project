@@ -1,4 +1,0 @@
-BLCK 10Mhz
-ADC 10Mhz
-LRCK 2Mhz
-I2C 1Mhz
