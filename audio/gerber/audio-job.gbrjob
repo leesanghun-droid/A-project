@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-02-16T09:01:11+09:00"
+    "CreationDate": "2023-02-20T12:18:14+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -49,28 +49,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "audio-In1_Cu.gbr",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "audio-In2_Cu.gbr",
-      "FileFunction": "Copper,L3,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "audio-B_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "audio-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "audio-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -79,18 +59,8 @@
       "FilePolarity": "Negative"
     },
     {
-      "Path": "audio-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
       "Path": "audio-Edge_Cuts.gbr",
       "FileFunction": "Profile",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "audio-User_2.gbr",
-      "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }
   ],
