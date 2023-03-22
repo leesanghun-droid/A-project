@@ -431,7 +431,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.2,
         "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.15,
@@ -441,9 +441,9 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -512,6 +512,23 @@
         "track_width": 0.15,
         "via_diameter": 0.45,
         "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.12,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "nomal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
@@ -682,44 +699,8 @@
       ""
     ],
     [
-      "039620fc-845c-4f42-b371-a9cdeb447748",
-      "isolation_module"
-    ],
-    [
-      "90bebbb0-1fdd-4048-9d12-a8c8747778ea",
-      "CM4_docker1"
-    ],
-    [
-      "37bdbadf-9ce7-4cff-96aa-5222c88e6059",
-      "4ch_mic"
-    ],
-    [
-      "6ec665d8-c64e-4e17-9c29-206f5c3ea2cd",
-      "CM4_HIGH_SPEED"
-    ],
-    [
-      "323b8967-7dfd-44f3-9141-90ee1155f22c",
-      "CM4_LOW_SPEED"
-    ],
-    [
-      "a4e3957d-eb98-4ec0-8ca6-596cd496c072",
-      "mic_moudle2"
-    ],
-    [
-      "3d5c4cf7-13f4-49bb-b4ff-0f2ab6b41503",
-      "POWER"
-    ],
-    [
       "daa996b3-8cca-4e80-978a-b45cd225225a",
       "mic_moudle1"
-    ],
-    [
-      "f8e1abee-9251-4a65-b885-d43c7ca6de94",
-      "mic_moudle3"
-    ],
-    [
-      "165eaf2d-a6d4-45f5-aba9-ba5a37e5fdab",
-      "mic_moudle4"
     ]
   ],
   "text_variables": {}
